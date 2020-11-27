@@ -1,5 +1,4 @@
 # rainzna.github.io
-<<<<<<< HEAD
 
 ## Project setup
 ```
