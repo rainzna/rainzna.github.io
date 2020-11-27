@@ -47,7 +47,7 @@ console.log(User);
 AV.init({
   appId: "I7eMhiBdgdrxo6wQwzoR8h1g-gzGzoHsz",
   appKey: "9tcPfUNhAuiN0NB2E7XiwkKp",
-  serverURL: "https://rainzna.github.io/"
+  serverURL: "https://i7emhibd.lc-cn-n1-shared.com"
 });
 
 const TestObject = AV.Object.extend('TestObject');
