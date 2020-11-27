@@ -50,6 +50,13 @@ AV.init({
   serverURL: "https://rainzna.github.io/"
 });
 
+const TestObject = AV.Object.extend('TestObject');
+const testObject = new TestObject();
+testObject.set('words', 'Hello world!');
+testObject.save().then((testObject) => {
+  console.log(testObject)
+})
+
 
 
 </script>
