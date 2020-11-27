@@ -39,6 +39,19 @@ export default {
     msg: String
   }
 }
+
+const AV = require('leancloud-storage');
+const { Query, User } = AV;
+console.log(Query);
+console.log(User);
+AV.init({
+  appId: "I7eMhiBdgdrxo6wQwzoR8h1g-gzGzoHsz",
+  appKey: "9tcPfUNhAuiN0NB2E7XiwkKp",
+  serverURL: "https://rainzna.github.io/"
+});
+
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
